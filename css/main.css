@@ -50,7 +50,6 @@ header > ul{
     padding-top: 13px;
 } */
 a{
-    cursor: none;
     color: black;
     text-decoration: none;
     cursor: pointer;
@@ -204,14 +203,15 @@ footer{
     background-color: rgb(238 235 236);
     grid-area: firstdiv;
     margin: 20px;
-    height: 400px;
-    width: 200px;
+    height: 550px;
+    width: 250px;
 }
 .inlblokABOUT2{
     grid-area: seconddiv;
     margin: 20px;
     height: 400px;
     width: 400px;
+    text-align: left;
 }
 
 .pABOUT{
@@ -220,18 +220,30 @@ footer{
     font-size: 25px;
 }
 .textABOUT{
-    margin: 5px 0;
+    margin: 22px 0;
 }
 .ulABOUT > li{
     margin: 15px 0;
 }
 .mainConteiner{
-    height: 440px;
-    width: 480px;
+    color: #9c8d8d;
+    height: 590px;
+    width: 730px;
     margin: 0 auto;
     margin-bottom: 50px;
     display: grid;
-    grid-template-columns: repeat(2, 240px);
+    grid-template-columns: 290px 440px;
     grid-template-areas: 'firstdiv seconddiv';
     /* text-justify: auto; */
+}
+.textSpasing{
+    word-spacing: 5px;
+    margin: 0 34px;
+    line-height: 3;
+}
+.greyA{
+    color: grey;
+    text-decoration: underline;
+    cursor: pointer;
+    
 }
