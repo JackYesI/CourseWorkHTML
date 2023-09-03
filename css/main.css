@@ -247,3 +247,40 @@ footer{
     cursor: pointer;
     
 }
+
+.conteinerProduct{
+    display: flex;
+    height: 750px;
+    width: 820px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* align-content: stretch; */
+    margin: 50px auto;
+}
+.insideconteiner{
+    text-align: left;
+    height: 200px;
+    width: 200px;
+    border: solid rgb(0, 0, 0, 0);
+    margin: 20px 0;
+}
+.pPRODUCT{
+    margin-top: 20px;
+    color: grey
+}
+.H2pRODUCT{
+    margin-top: 20px;
+    color: rgb(227 42 98);
+}
+.imgProduct{
+    width: 70%;
+    text-align: center;
+    margin-left: 26px;
+}
+.H2pRODUCT2{
+    margin: 0;
+    padding: 0;
+    color: rgb(227 42 98);
+    text-align: center;
+}
+
