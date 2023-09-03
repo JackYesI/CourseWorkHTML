@@ -2,8 +2,70 @@
     margin: 0;
     padding: 0;
 }
+@font-face {
+    font-family: 'Kablammo';
+    src: url(/fonts/RammettoOne-Regular.ttf);
+}
+@font-face {
+    font-family: 'lato';
+    src: url(/fonts/lato-regular-webfont.ttf);
+}
+@font-face {
+    font-family: 'lato-b';
+    src: url(/fonts/lato-bold-webfont.ttf);
+}
+@font-face {
+    font-family: 'magra';
+    src: url(/fonts/magra-bold-webfont.ttf);
+}
+.styleFreeze{
+    font-family: 'Kablammo', cursive;
+}
 .pink{
     color: rgb(227 42 98);
+}
+.latob{
+    font-family: 'lato-b';
+    color: #877575;
+    word-spacing: 2px;
+}
+.lato{
+    font-family: 'lato-b';
+    color: rgb(227 42 98);
+}
+.whiteletter{
+    font-family: 'lato';
+    color: white;
+    font-weight: 500;
+}
+.latol{
+    font-family: 'lato';
+    color: rgb(227 42 98);
+    font-weight: 500;
+}
+.latolG{
+    font-family: 'lato';
+    color: #877575;
+    font-weight: 500;
+}
+footer{
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+    font-size: 10px;
+    font-family: 'lato';
+}
+.footer{
+    margin-top: 23px;
+}
+.re{
+    font-family: 'magra', cursive;
+    font-size: 30px;
+    color: #cb3362;
+}
+.MomGrey{
+    color: #9b8c8d;
+    font-family: 'lato';
 }
 /* header, 
 nav,
@@ -13,12 +75,16 @@ section{
 } */
 header{
     display: flex;
-    /* text-align: center; */
+    text-align: center;
     height: 50px;
     justify-content: center;
     background-color: rgb(238 235 236);
     border: none;
     padding: 30px;
+    font-family: 'magra';
+}
+.section1 > p{
+    color: #9b8c8d;
 }
 #freeeze{
     width: 125px;
@@ -33,8 +99,8 @@ span{
 }
 .conteinerFreeeze{
     display: grid;
-    grid-template-columns: repeat(7, 14px);
-    grid-template-rows: repeat(4, 11px);
+    grid-template-columns: repeat(7, 16.7px);
+    grid-template-rows: repeat(4, 3px);
     grid-template-areas: '. . . . . erh .'
                         'freeeze freeeze freeeze freeeze freeeze freeeze freeeze';
 }
@@ -60,22 +126,27 @@ a:hover{
 .HOME{
     display: block;
     grid-area: HOME;
+    font-family: 'lato', cursive;
 }
 .ABOUT{
     display: block;
     grid-area: ABOUT;
+    font-family: 'lato', cursive;
 }
 .PRODUCT{
     display: none;
     grid-area: PRODUCT;
+    font-family: 'lato', cursive;
 }
 .BLOG{
     display: block;
     grid-area: BLOG;
+    font-family: 'lato', cursive;
 }
 .SINGLE_POST{
     display: none;
     grid-area: SINGLE_POST;
+    font-family: 'lato', cursive;
 }
 .hov1{
     width: 155px;
@@ -141,6 +212,7 @@ h3{
     color: rgb(227 42 98);
     grid-area: h2;
     padding: 15px 0 15px 0;
+    font-family: 'magra';
 }
 .float{
     /* float: right; */
@@ -191,11 +263,11 @@ footer{
     text-align: center;
 }
 #mainABOUT{
-    height: 150px;
+    height: 240px;
     background-color: rgb(238 235 236);
     text-align: center;
     overflow-y: hidden;
-    background-image: url(/img/img-product.png);
+    background-image: url(/img/mainabout.png);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -284,12 +356,22 @@ footer{
     text-align: center;
 }
 
+.conteinreBLOG2{
+    height: 100px;
+    width: 530px;
+    margin: 0 auto;
+    margin-left: 80px;
+    margin-bottom: 80px;
+}
+.cen{
+    text-align: left;
+}
 .conteinerBLOG{
     height: 800px;
     width: 900px;
     margin: 0 auto;
     margin-top: 50px;
-    /* margin-bottom: 100px; */
+    /* margin-bottom: 50px; */
     display: grid;
     grid-template-columns: 600px 300px;
     grid-template-rows: repeat(2 400px);
@@ -310,7 +392,7 @@ footer{
     height: 800px;
     width: 300px;
     grid-area: POST;
-    
+    margin-left: 15px;
     background-color: rgb(238 235 236);
 }
 
@@ -322,7 +404,7 @@ footer{
     text-decoration: none;
     margin: 20px 0;
     border: solid;
-    font-size: 22px;
+    /* font-size: 22px; */
     display: inline-block;
     margin-left: 0;
     margin-right: auto;
@@ -382,3 +464,7 @@ footer{
 .u{
     margin-left: 30px;
 }
+.PRODUCT1, .SINGLE_POST1{
+    font-family: 'lato', cursive;
+}
+
